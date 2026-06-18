@@ -3,7 +3,7 @@ name: "human-resources"
 displayName: "Human Resources"
 description: "People-operations workflows for recruiting, offers, onboarding, performance reviews, policy guidance, compensation analysis, org planning, and people reporting."
 keywords: ["hr", "people-ops", "recruiting", "offers", "onboarding", "performance", "compensation", "policy", "org-design"]
-author: "Anthropic"
+author: "NUX DESIGN"
 ---
 
 # Human Resources Power

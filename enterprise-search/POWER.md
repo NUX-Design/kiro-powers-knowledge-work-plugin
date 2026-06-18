@@ -3,7 +3,7 @@ name: "enterprise-search"
 displayName: "Enterprise Search"
 description: "Search across connected company systems, synthesize findings, and generate cross-source digests with attribution. Best for questions that span chat, docs, trackers, and other enterprise knowledge sources."
 keywords: ["enterprise-search", "cross-source-search", "knowledge-synthesis", "team-digest", "slack", "notion", "atlassian", "asana"]
-author: "Anthropic"
+author: "NUX DESIGN"
 ---
 
 # Enterprise Search

@@ -3,7 +3,7 @@ name: "productivity"
 displayName: "Productivity"
 description: "Personal productivity workflows for tasks, workplace memory, daily updates, and connected work context."
 keywords: ["productivity", "tasks", "memory", "daily-updates", "organization", "workflow"]
-author: "Anthropic"
+author: "NUX DESIGN"
 ---
 
 # Productivity

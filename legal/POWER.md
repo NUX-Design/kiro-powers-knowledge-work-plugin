@@ -3,7 +3,7 @@ name: "legal"
 displayName: "Legal"
 description: "Legal operations workflows for contract review, NDA triage, compliance checks, briefings, response templates, vendor agreement visibility, risk assessment, signature routing, and meeting prep."
 keywords: ["legal", "contracts", "nda", "compliance", "privacy", "risk", "briefing", "vendor-management", "esignature"]
-author: "Anthropic"
+author: "NUX DESIGN"
 ---
 
 # Legal Power

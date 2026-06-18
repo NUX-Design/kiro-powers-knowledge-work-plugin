@@ -3,7 +3,7 @@ name: "bio-research"
 displayName: "Bio Research"
 description: "Life sciences research workflows for literature review, single-cell analysis, nf-core pipelines, Allotrope conversion, and scientific project strategy."
 keywords: ["biology", "research", "single-cell", "scRNA-seq", "nextflow", "nf-core", "allotrope", "life-sciences", "pubmed", "genomics"]
-author: "Anthropic"
+author: "NUX DESIGN"
 ---
 
 # Bio-Research

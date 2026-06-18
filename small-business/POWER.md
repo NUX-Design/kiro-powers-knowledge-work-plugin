@@ -3,7 +3,7 @@ name: "small-business"
 displayName: "Small Business"
 description: "Operational workflows for small business owners across cash flow, month-end close, taxes, sales, marketing, customer support, CRM hygiene, hiring, contracts, onboarding, and weekly business snapshots."
 keywords: ["smb", "small-business", "finance", "marketing", "crm", "customer-support", "contracts", "hiring", "operations"]
-author: "Anthropic"
+author: "NUX DESIGN"
 ---
 
 # Small Business Power

@@ -3,7 +3,7 @@ name: "finance"
 displayName: "Finance"
 description: "Finance and accounting workflows for journal entries, reconciliations, close management, financial statements, variance analysis, and SOX audit support."
 keywords: ["finance", "accounting", "journal-entries", "reconciliation", "close-management", "financial-statements", "variance-analysis", "sox", "audit"]
-author: "Anthropic"
+author: "NUX DESIGN"
 ---
 
 # Finance

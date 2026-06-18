@@ -3,7 +3,7 @@ name: "engineering"
 displayName: "Engineering"
 description: "Engineering workflows for standups, code review, debugging, architecture, incident response, deployment readiness, testing, documentation, system design, and technical debt management."
 keywords: ["engineering", "code-review", "debugging", "architecture", "incident-response", "deployment", "testing", "documentation", "system-design", "technical-debt"]
-author: "Anthropic"
+author: "NUX DESIGN"
 ---
 
 # Engineering

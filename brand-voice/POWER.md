@@ -3,7 +3,7 @@ name: "brand-voice"
 displayName: "Brand Voice"
 description: "Discover brand signals, generate reusable voice guidelines, and enforce brand-consistent writing across content workflows. Best for teams whose brand knowledge is scattered across documents, design files, and conversation systems."
 keywords: ["brand-voice", "brand-guidelines", "messaging", "tone-of-voice", "copy-review", "content-rewriting", "notion", "figma"]
-author: "Tribe AI"
+author: "NUX DESIGN"
 ---
 
 # Brand Voice

@@ -3,7 +3,7 @@ name: "product-management"
 displayName: "Product Management"
 description: "Product workflows for specs, roadmaps, sprint planning, stakeholder communication, research synthesis, competitive analysis, metrics review, and product brainstorming."
 keywords: ["product", "pm", "roadmap", "prd", "research", "metrics", "competitive-analysis", "stakeholder-updates", "sprint-planning"]
-author: "Anthropic"
+author: "NUX DESIGN"
 ---
 
 # Product Management Power
