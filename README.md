@@ -1,6 +1,8 @@
 # Kiro Powers Knowledge Work Plugin
 
-Collection of domain-specific Kiro Powers packaged as plain folders so you can copy only the ones you need into your Kiro setup.
+Collection of domain-specific Kiro Powers stored in one repository.
+
+Important: Kiro's `Import power from GitHub` flow expects a valid `POWER.md` in the repository root. This repository contains multiple powers in subfolders, so it is not directly installable as a single custom power from one public GitHub URL in its current layout.
 
 ## Included Powers
 
@@ -35,26 +37,53 @@ Each power folder follows the same structure:
     *.md
 ```
 
-## How To Import Into Kiro Powers
+## How To Import Into Kiro
 
-This repo is organized so each top-level folder is one importable power package.
+Kiro supports two relevant installation modes for custom powers:
 
-### Option 1: Import One Power
+1. `Import power from GitHub`
+2. `Import power from a folder`
 
-1. Choose a folder such as `engineering` or `product-management`.
-2. Copy that folder into the location where you keep custom Kiro Powers.
-3. Keep the folder contents intact:
-   - `POWER.md`
-   - `steering/`
-   - `mcp.json`
-4. Restart Kiro, or reload the workspace if Kiro is already open.
-5. Enable or edit any MCP entries in that power's `mcp.json` only if you want external integrations.
+Because this repository has many powers and does not have a root-level `POWER.md`, the correct way to use this repository today is per-power folder import, not whole-repo GitHub URL import.
 
-### Option 2: Import Everything
+### Recommended: Import One Power From A Folder
 
-1. Copy all top-level power folders from this repo into your Kiro Powers directory.
-2. Restart Kiro or reload the workspace.
-3. Turn on only the MCP servers you actually use. Every provided server is disabled by default.
+1. Clone this repository locally.
+2. In Kiro, open `Powers panel -> Add Custom Power`.
+3. Select `Import power from a folder`.
+4. Choose a single power directory such as `engineering`, `design`, or `product-management`.
+5. Click `Install`.
+
+The selected folder must keep this structure intact:
+
+- `POWER.md`
+- `steering/`
+- `mcp.json` (optional, but included here)
+
+### Import Multiple Powers
+
+Repeat the folder import flow once per power you want to install.
+
+Examples:
+
+- import `/path/to/kiro-powers-knowledge-work-plugin/engineering`
+- import `/path/to/kiro-powers-knowledge-work-plugin/design`
+- import `/path/to/kiro-powers-knowledge-work-plugin/productivity`
+
+### When GitHub URL Import Will Work
+
+Kiro's public GitHub URL import works only when the repository root itself contains the power package, including `POWER.md`.
+
+That means one of these structures is required:
+
+```text
+my-custom-power-repo/
+  POWER.md
+  mcp.json
+  steering/
+```
+
+This repository is not laid out that way. Each top-level folder is a separate power package instead.
 
 ## Recommended Import Rules
 
@@ -62,6 +91,7 @@ This repo is organized so each top-level folder is one importable power package.
 - Do not flatten the `steering/` directory; the references inside each power expect that layout.
 - Treat `mcp.json` as optional configuration. The power still works without enabling MCP servers.
 - If you customize a power for your team, duplicate the folder first and edit the copy.
+- If you want GitHub URL installation, publish each power as its own repository or move one power to the repository root.
 
 ## Typical Workflow
 
@@ -72,7 +102,7 @@ This repo is organized so each top-level folder is one importable power package.
 
 ## Example
 
-To import the engineering power, copy:
+To import the engineering power from a local clone, select this folder in Kiro:
 
 ```text
 engineering/
@@ -91,9 +121,10 @@ engineering/
     testing-strategy.md
 ```
 
-Then reload Kiro and use the `engineering` power from your custom powers collection.
+Kiro will install that folder as one custom power.
 
 ## Notes
 
 - This repository stores powers as normal Markdown plus JSON so they are easy to version, review, and extend.
-- The exact screen or menu name for loading custom powers can vary between Kiro environments. If your Kiro setup expects a specific import directory, copy the power folders there without changing their internal layout.
+- Kiro docs for custom power install: [Install powers](https://kiro.dev/docs/powers/installation/#from-public-github-url)
+- Per the Kiro docs, the public GitHub URL flow requires `POWER.md` in the repository root.
