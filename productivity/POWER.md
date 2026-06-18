@@ -1,8 +1,9 @@
 ---
-name: productivity
-description: Personal productivity workflows for tasks, workplace memory, daily updates, and connected work context.
-version: 1.3.0
-author: Anthropic
+name: "productivity"
+displayName: "Productivity"
+description: "Personal productivity workflows for tasks, workplace memory, daily updates, and connected work context."
+keywords: ["productivity", "tasks", "memory", "daily-updates", "organization", "workflow"]
+author: "Anthropic"
 ---
 
 # Productivity

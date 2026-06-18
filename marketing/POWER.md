@@ -1,8 +1,9 @@
 ---
-name: marketing
-description: Marketing workflows for content creation, campaign planning, brand review, competitive research, performance reporting, SEO audits, and email sequencing.
-version: 1.2.0
-author: Anthropic
+name: "marketing"
+displayName: "Marketing"
+description: "Marketing workflows for content creation, campaign planning, brand review, competitive research, performance reporting, SEO audits, and email sequencing."
+keywords: ["marketing", "content", "campaign", "brand", "seo", "email", "social-media", "analytics", "competitive-research"]
+author: "Anthropic"
 ---
 
 # Marketing

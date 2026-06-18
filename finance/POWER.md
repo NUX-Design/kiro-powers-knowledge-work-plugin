@@ -1,8 +1,9 @@
 ---
-name: finance
-description: Finance and accounting workflows for journal entries, reconciliations, close management, financial statements, variance analysis, and SOX audit support.
-version: 1.3.0
-author: Anthropic
+name: "finance"
+displayName: "Finance"
+description: "Finance and accounting workflows for journal entries, reconciliations, close management, financial statements, variance analysis, and SOX audit support."
+keywords: ["finance", "accounting", "journal-entries", "reconciliation", "close-management", "financial-statements", "variance-analysis", "sox", "audit"]
+author: "Anthropic"
 ---
 
 # Finance

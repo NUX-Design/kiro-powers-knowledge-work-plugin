@@ -1,3 +1,11 @@
+---
+name: "Data"
+displayName: "Data"
+description: "Transform your AI assistant into a data analyst collaborator. SQL queries, data exploration, visualization, dashboards, and insight generation across any data warehouse or analytics stack."
+keywords: ["data", "sql", "analytics", "warehouse", "visualization", "dashboard", "bigquery", "snowflake", "postgres", "databricks", "redshift", "charts", "statistics", "data-quality"]
+author: "NUX DESIGN"
+---
+
 # Data Analyst Power
 
 Transform your AI assistant into a data analyst collaborator. SQL queries, data exploration, visualization, dashboards, and insight generation. Works with any data warehouse, any SQL dialect, and any analytics stack.
@@ -50,6 +58,4 @@ Paste SQL results or upload CSV/Excel files for analysis and visualization. The 
    - "Build a sales dashboard from this CSV"
    - "Validate my analysis before I present it"
 
-## Keywords
 
-data, sql, analytics, warehouse, visualization, dashboard, bigquery, snowflake, postgres, databricks, redshift, charts, statistics, data-quality

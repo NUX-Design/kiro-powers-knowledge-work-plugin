@@ -1,8 +1,9 @@
 ---
-name: operations
-description: Operations workflows for vendor reviews, process docs, change requests, capacity planning, status reporting, runbooks, and risk management.
-version: 1.3.0
-author: Anthropic
+name: "operations"
+displayName: "Operations"
+description: "Operations workflows for vendor reviews, process docs, change requests, capacity planning, status reporting, runbooks, and risk management."
+keywords: ["operations", "vendor", "process", "change-management", "capacity-planning", "runbooks", "risk-management", "status-reporting"]
+author: "Anthropic"
 ---
 
 # Operations
