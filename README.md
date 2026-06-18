@@ -2,6 +2,10 @@
 
 Collection of domain-specific Kiro Powers.
 
+## About
+
+Source repository for a multi-domain Kiro Powers collection. This repo is used to author, organize, and maintain individual power packages such as engineering, design, legal, finance, marketing, productivity, and product management. Each power is intended to be published and installed from its own public GitHub repository URL.
+
 Important: install each power only from its own public GitHub repository URL.
 
 ## Included Powers
