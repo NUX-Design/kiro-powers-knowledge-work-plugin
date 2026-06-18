@@ -1,0 +1,25 @@
+{
+  "mcpServers": {
+    "slack": {
+      "url": "https://mcp.slack.com/mcp",
+      "disabled": true
+    },
+    "box": {
+      "url": "https://mcp.box.com",
+      "disabled": true
+    },
+    "egnyte": {
+      "url": "https://mcp-server.egnyte.com/mcp",
+      "disabled": true
+    },
+    "atlassian": {
+      "url": "https://mcp.atlassian.com/v1/mcp",
+      "disabled": true
+    },
+    "docusign": {
+      "url": "https://mcp.docusign.com/mcp",
+      "disabled": true
+    }
+  }
+}
+

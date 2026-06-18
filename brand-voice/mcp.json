@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "notion": {
+      "type": "http",
+      "url": "https://mcp.notion.com/mcp",
+      "disabled": true
+    },
+    "atlassian": {
+      "type": "http",
+      "url": "https://mcp.atlassian.com/v1/mcp",
+      "disabled": true
+    },
+    "box": {
+      "type": "http",
+      "url": "https://mcp.box.com",
+      "disabled": true
+    },
+    "figma": {
+      "type": "http",
+      "url": "https://mcp.figma.com/mcp",
+      "disabled": true
+    },
+    "gong": {
+      "type": "http",
+      "url": "https://mcp.gong.io/mcp",
+      "disabled": true
+    },
+    "granola": {
+      "type": "http",
+      "url": "https://mcp.granola.ai/mcp",
+      "disabled": true
+    }
+  }
+}

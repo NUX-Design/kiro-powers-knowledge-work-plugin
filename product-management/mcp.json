@@ -1,0 +1,61 @@
+{
+  "mcpServers": {
+    "slack": {
+      "url": "https://mcp.slack.com/mcp",
+      "disabled": true
+    },
+    "linear": {
+      "url": "https://mcp.linear.app/mcp",
+      "disabled": true
+    },
+    "asana": {
+      "url": "https://mcp.asana.com/v2/mcp",
+      "disabled": true
+    },
+    "monday": {
+      "url": "https://mcp.monday.com/mcp",
+      "disabled": true
+    },
+    "clickup": {
+      "url": "https://mcp.clickup.com/mcp",
+      "disabled": true
+    },
+    "atlassian": {
+      "url": "https://mcp.atlassian.com/v1/mcp",
+      "disabled": true
+    },
+    "notion": {
+      "url": "https://mcp.notion.com/mcp",
+      "disabled": true
+    },
+    "figma": {
+      "url": "https://mcp.figma.com/mcp",
+      "disabled": true
+    },
+    "amplitude": {
+      "url": "https://mcp.amplitude.com/mcp",
+      "disabled": true
+    },
+    "amplitude-eu": {
+      "url": "https://mcp.eu.amplitude.com/mcp",
+      "disabled": true
+    },
+    "pendo": {
+      "url": "https://app.pendo.io/mcp/v0/shttp",
+      "disabled": true
+    },
+    "intercom": {
+      "url": "https://mcp.intercom.com/mcp",
+      "disabled": true
+    },
+    "fireflies": {
+      "url": "https://api.fireflies.ai/mcp",
+      "disabled": true
+    },
+    "similarweb": {
+      "url": "https://mcp.similarweb.com/mcp",
+      "disabled": true
+    }
+  }
+}
+

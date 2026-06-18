@@ -1,0 +1,49 @@
+{
+  "mcpServers": {
+    "quickbooks": {
+      "url": "https://ai-inc.quickbooks.intuit.com/v1/mcp",
+      "disabled": true
+    },
+    "paypal": {
+      "url": "https://mcp.paypal.com/sse",
+      "disabled": true
+    },
+    "hubspot": {
+      "url": "https://mcp.hubspot.com/anthropic",
+      "disabled": true
+    },
+    "canva": {
+      "url": "https://mcp.canva.com/mcp",
+      "disabled": true
+    },
+    "docusign": {
+      "url": "https://mcp.docusign.com/mcp",
+      "disabled": true
+    },
+    "slack": {
+      "url": "https://mcp.slack.com/mcp",
+      "disabled": true
+    },
+    "stripe": {
+      "url": "https://mcp.stripe.com",
+      "disabled": true
+    },
+    "square": {
+      "url": "https://mcp.squareup.com/sse",
+      "disabled": true
+    },
+    "gmail": {
+      "url": "https://gmailmcp.googleapis.com/mcp/v1",
+      "disabled": true
+    },
+    "google calendar": {
+      "url": "https://calendarmcp.googleapis.com/mcp/v1",
+      "disabled": true
+    },
+    "google drive": {
+      "url": "https://drivemcp.googleapis.com/mcp/v1",
+      "disabled": true
+    }
+  }
+}
+
